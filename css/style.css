@@ -20,7 +20,7 @@ body { cursor: default; }
 strong, b { font-weight: bold; }
 em, i { font-style: italic; }
 input, textarea { cursor: text; }
-a, label, select, button, input[type=button], input[type=submit] { cursor: pointer; }
+a, label, select, button, input[type=button], input[type=submit], input[type=checkbox], input[type=radio] { cursor: pointer; }
 
 /* GENERAL */
 .fleft { float: left; }
