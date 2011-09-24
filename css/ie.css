@@ -1,3 +1,2 @@
-/* FIXES FOR IE */
-* html .clearfix { zoom: 1; }
-*+html .clearfix { zoom: 1; }
+* html .clearfix{zoom:1;}
+*+html .clearfix{zoom:1;}

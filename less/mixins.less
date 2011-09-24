@@ -1,0 +1,81 @@
+/* MIXINS */
+
+/* BORDER RADIUS */
+.border-radius(@radius: 4px) {
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+	border-radius: @radius;
+}
+.border-radius-left(@radius: 4px) {
+	-webkit-border-top-left-radius: @radius;
+	-webkit-border-bottom-left-radius: @radius;
+	-moz-border-radius-topleft: @radius;
+	-moz-border-radius-bottomleft: @radius;
+	border-top-left-radius: @radius;
+	border-bottom-left-radius: @radius;
+}
+.border-radius-right(@radius: 4px) {
+	-webkit-border-top-right-radius: @radius;
+	-webkit-border-bottom-right-radius: @radius;
+	-moz-border-radius-topright: @radius;
+	-moz-border-radius-bottomright: @radius;
+	border-top-right-radius: @radius;
+	border-bottom-right-radius: @radius;
+}
+.border-radius-top(@radius: 4px) {
+	-webkit-border-top-left-radius: @radius;
+	-webkit-border-top-right-radius: @radius;
+	-moz-border-radius-topleft: @radius;
+	-moz-border-radius-topright: @radius;
+	border-top-left-radius: @radius;
+	border-top-right-radius: @radius;
+}
+.border-radius-bottom(@radius: 4px) {
+	-webkit-border-bottom-left-radius: @radius;
+	-webkit-border-bottom-right-radius: @radius;
+	-moz-border-radius-bottomleft: @radius;
+	-moz-border-radius-bottomright: @radius;
+	border-bottom-left-radius: @radius;
+	border-bottom-right-radius: @radius;
+}
+
+/* BOX-SHADOW */
+.box-shadow(@x: 0, @y: 0, @blur: 4px, @color: #000000) {
+	-moz-box-shadow: @x @y @blur @color;
+	-webkit-box-shadow: @x @y @blur @color;
+	box-shadow: @x @y @blur @color;
+}
+
+/* FONT-FACE CODE GENERATOR */
+.font-face(@name, @file-name) {
+	@font-face {
+		font-weight: normal;
+		font-style: normal;
+		font-family: @name;
+		src: url("@{fonts-path}/@{file-name}.eot");
+		src: url("@{fonts-path}/@{file-name}.eot?#iefix") format('embedded-opentype'),
+			url("@{fonts-path}/@{file-name}.woff") format('woff'),
+			url("@{fonts-path}/@{file-name}.ttf") format('truetype'),
+			url("@{fonts-path}/@{file-name}.svg#@{name}") format('svg');
+	}
+}
+
+/* GRADIENTS */
+.linear-gradient(@start: #FFFFFF, @end: #000000, @from: top) {
+	background-color: @start;
+	background-image: -webkit-linear-gradient(@from, @start, @end);
+	background-image: -moz-linear-gradient(@from, @start, @end);
+	background-image: -ms-linear-gradient(@from, @start, @end);
+	background-image: -o-linear-gradient(@from, @start, @end);
+	background-image: linear-gradient(@from, @start, @end);
+	filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorStr='@{start}', EndColorStr='@{end}')";
+}
+
+/* ROTATE OBJECT */
+.rotate(@angle: 8deg) {
+	-webkit-transform: rotate(@angle);
+	-moz-transform: rotate(@angle);
+	-ms-transform: rotate(@angle);
+	-o-transform: rotate(@angle);
+	transform: rotate(@angle);
+}
