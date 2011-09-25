@@ -33,7 +33,7 @@ To read what is mixins, follow this link:  <http://lesscss.org>
 * Border radius:
   * all corners:
 
-        .border-radius(8px);
+    > .border-radius(8px);
 
   * only top corners:
         .border-radius-top(8px);
