@@ -22,7 +22,7 @@ To read more about LESS CSS, follow this link: <http://lesscss.org>
 
 If you want to use LESS & don't have Mac OS, then comment line #14 & uncomment lines #16, #17 in index.html.
 
-If you want to use LESS & have Mac OS, simply install LESS App, drop downloaded folder into it & start working!
+If you want to use LESS & have Mac OS, simply install [LESS App](http://incident57.com/less/), drop downloaded folder into it & start working!
 
 ## Mixins
 
