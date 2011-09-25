@@ -1,5 +1,4 @@
-HTML5-Base
-=====
+#HTML5-Base
 
 Start markup of your design in HTML5 & CSS3 with base template.
 
