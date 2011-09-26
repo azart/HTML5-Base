@@ -47,7 +47,7 @@ To read what is mixins, follow this link:  <http://lesscss.org>
 
 * Font-face. Set base path for fonts in /less/variables.less: @fonts-path
 
-## Licence
+## License
 
 Licenced under Creative Commons Attribution-ShareAlike 3.0 Unported: <http://creativecommons.org/licenses/by-sa/3.0/>
 
