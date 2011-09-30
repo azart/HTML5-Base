@@ -1,6 +1,6 @@
-/* MIXINS */
+// MIXINS
 
-/* BORDER RADIUS */
+// BORDER RADIUS
 .border-radius(@radius: 4px) {
 	-moz-border-radius: @radius;
 	-webkit-border-radius: @radius;
@@ -39,14 +39,7 @@
 	border-bottom-right-radius: @radius;
 }
 
-/* BOX-SHADOW */
-.box-shadow(@x: 0, @y: 0, @blur: 4px, @color: #000000) {
-	-moz-box-shadow: @x @y @blur @color;
-	-webkit-box-shadow: @x @y @blur @color;
-	box-shadow: @x @y @blur @color;
-}
-
-/* FONT-FACE CODE GENERATOR */
+// FONT-FACE CODE GENERATOR
 .font-face(@name, @file-name) {
 	@font-face {
 		font-weight: normal;
@@ -60,7 +53,7 @@
 	}
 }
 
-/* GRADIENTS */
+// GRADIENTS
 .linear-gradient(@start: #FFFFFF, @end: #000000, @from: top) {
 	background-color: @start;
 	background-image: -webkit-linear-gradient(@from, @start, @end);
@@ -71,7 +64,7 @@
 	filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorStr='@{start}', EndColorStr='@{end}')";
 }
 
-/* ROTATE OBJECT */
+// ROTATE OBJECT
 .rotate(@angle: 8deg) {
 	-webkit-transform: rotate(@angle);
 	-moz-transform: rotate(@angle);

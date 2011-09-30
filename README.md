@@ -36,7 +36,6 @@ To read what is mixins, follow this link:  <http://lesscss.org>
   * only bottom corners: **.border-radius-bottom(8px);**
   * only left corners: **.border-radius-left(8px);**
   * only right corners: **.border-radius-right(8px);**
-* Box shadow: **.box-shadow(0, 0, 8px, #000000);**
 * Font-face: **.font-face(FontName, filename);**
 * Gradients:
   * Simple gradient: **.linear-gradient(#FFFFFF, #000000);**
