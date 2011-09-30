@@ -31,7 +31,7 @@ To read what is mixins, follow this link:  <http://lesscss.org>
 ### Available mixins:
 
 * Border radius:
-  * all corners: **border-radius(8px);**
+  * all corners: **.border-radius(8px);**
   * only top corners: **.border-radius-top(8px);**
   * only bottom corners: **.border-radius-bottom(8px);**
   * only left corners: **.border-radius-left(8px);**
