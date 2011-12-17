@@ -20,9 +20,13 @@ Start markup of your design in HTML5 & CSS3 with base template.
 
 To read more about LESS CSS, follow this link: <http://lesscss.org>
 
-If you want to use LESS & don't have Mac OS, then comment line #14 & uncomment lines #16, #17 in [index.html](https://github.com/fromrussia/HTML5-Base/blob/master/index.html#L14-17).
+If you want to use LESS with JS, then comment line #14 & uncomment lines #16, #17 in [index.html](https://github.com/fromrussia/HTML5-Base/blob/master/index.html#L14-17).
 
-If you want to use LESS & have Mac OS, simply install [LESS App](http://incident57.com/less/), drop downloaded folder into it & start working!
+LESS Compilers for Mac OS: [LESS App](http://incident57.com/less/)
+
+LESS Compiler for Windows: [WinLESS](http://winless.org/)
+
+Cross-platform LESS compiler: [SimpLESS](http://wearekiss.com/simpless)
 
 ## Mixins
 
@@ -30,12 +34,7 @@ To read what is mixins, follow this link:  <http://lesscss.org>
 
 ### Available mixins:
 
-* Border radius:
-  * all corners: **.border-radius(8px);**
-  * only top corners: **.border-radius-top(8px);**
-  * only bottom corners: **.border-radius-bottom(8px);**
-  * only left corners: **.border-radius-left(8px);**
-  * only right corners: **.border-radius-right(8px);**
+* Border radius: **.border-radius(8px);**
 * Font-face: **.font-face(FontName, filename);**
 * Gradients:
   * Simple gradient: **.linear-gradient(#FFFFFF, #000000);**
